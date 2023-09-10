@@ -13,3 +13,9 @@ name = "sufia";
 age = "20"
 document.write(name);
 document.write(age);
+ /*------- concatenate string--------*/
+
+//  document.write("  chadni " + " talukder")
+
+var firstName = "chadni"
+var last
