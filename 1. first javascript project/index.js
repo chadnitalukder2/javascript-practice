@@ -7,15 +7,22 @@ console.log("I love bangladesh");*/
 
 // var name;
 // var age;
-var name,age;
+/*var name,age;
 
 name = "sufia";
 age = "20"
 document.write(name);
-document.write(age);
+document.write(age);*/
  /*------- concatenate string--------*/
 
-//  document.write("  chadni " + " talukder")
+document.write("  chadni " + " talukder")
 
 var firstName = "chadni"
-var last
+var lastName = " talukder"
+ var fullName = firstName + lastName;
+ document.write("My name is " + fullName);
+
+var fullName =" Chadni Talukder ";
+document.write(fullName + "is my name")
+document.write("my name is" + fullName + "Puja")
+
