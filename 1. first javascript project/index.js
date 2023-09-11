@@ -15,7 +15,7 @@ document.write(name);
 document.write(age);*/
  /*------- concatenate string--------*/
 
-document.write("  chadni " + " talukder")
+/*document.write("  chadni " + " talukder")
 
 var firstName = "chadni"
 var lastName = " talukder"
@@ -24,5 +24,35 @@ var lastName = " talukder"
 
 var fullName =" Chadni Talukder ";
 document.write(fullName + "is my name")
-document.write("my name is" + fullName + "Puja")
+document.write("my name is" + fullName + "Puja")*/
 
+/*----------library function-------*/
+
+/*var text = "Bangladesh";
+document.write("number of character" + text.length)
+
+//ar len = text.length;
+//document.write("Number of character" + len);*/
+
+/*var text = prompt("Enter your name : ");
+document.write("Number of character" + text.length);*/
+
+/*var text = "Bangladesh";
+document.write(text.charAt(2));*/
+
+/*var text = "Bangladesh";
+text = text.toUpperCase();
+document.write(text);*/
+
+/*var text = "Bangladesh";
+text = text.toLowerCase();
+document.write(text);*/
+
+/*var text1 = "Bangladesh";
+var text2 = " is a beautiful country";
+text = text1.concat(text2)
+document.write(text);*/
+
+/*var text1 = "Bangladesh";
+ text = text1.slice(0, 2);
+document.write(text);*/
