@@ -56,3 +56,12 @@ document.write(text);*/
 /*var text1 = "Bangladesh";
  text = text1.slice(0, 2);
 document.write(text);*/
+
+//-------h-w------
+var text1= prompt("Enter your fiest name : ");
+var text2 = prompt("Enter your last name : ");
+var fullName =  text1 +  text2;
+document.write(fullName);
+document.write("Number of character" + fullName.length);
+text = fullName.toUpperCase();
+document.write(text);
