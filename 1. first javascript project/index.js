@@ -58,10 +58,65 @@ document.write(text);*/
 document.write(text);*/
 
 //-------h-w------
-var text1= prompt("Enter your fiest name : ");
+/*var text1= prompt("Enter your fiest name : ");
 var text2 = prompt("Enter your last name : ");
 var fullName =  text1 +  text2;
 document.write(fullName);
 document.write("Number of character" + fullName.length);
 text = fullName.toUpperCase();
-document.write(text);
+document.write(text);*/
+
+
+/*---------- Arithmetic And assignment operator-----*/
+//Arithmetic operator -> + , - , * , / , %(bagfol, modulus), **(power, Exponent), ++ , --
+
+//assignment operator -> = , += , -= , *= , %=, **=
+
+/*var x = 3;
+x += 6 ; // x = x + 6  ,  x = 3 + 6 , x = 9
+console.log(x)*/
+
+/*var num1 = 20;
+var num2 = 10;
+var sum,sub;
+sum =  num1 + num2;
+document.write("sum = " + sum + "<br/>")
+
+sub = num1 - num2;
+document.write("subtraction = " + sub)*/
+
+/*var num1 = prompt("Enter first number: ");
+var num2 =  prompt("Enter second number: ");
+
+num1 = parseInt(num1,10);
+num2 = parseInt(num2,10);
+
+var sum,sub;
+sum =  num1 + num2;
+document.write("addition = " + sum + "<br/>")
+
+sub = num1 - num2;
+document.write("subtraction = " + sub)*/
+
+
+var num1 = prompt("Enter first number: ");
+var num2 =  prompt("Enter second number: ");
+
+num1 = parseInt(num1,10);
+num2 = parseInt(num2,10);
+
+var sum,sub;
+sum =  num1 + num2;
+document.write(num1 + "+" + num2 + " = " +sum +"<br/>");
+
+sub =  num1 - num2;
+document.write(num1 + "-" + num2 + " = " +sub +"<br/>");
+
+mul =  num1 * num2;
+document.write(num1 + "*" + num2 + " = " +mul +"<br/>");
+
+div =  num1 / num2;
+document.write(num1 + "/" + num2 + " = " +div +"<br/>");
+
+rem =  num1 % num2;
+document.write(num1 + "%" + num2 + " = " +rem +"<br/>");
