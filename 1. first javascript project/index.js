@@ -99,7 +99,7 @@ sub = num1 - num2;
 document.write("subtraction = " + sub)*/
 
 
-var num1 = prompt("Enter first number: ");
+/*var num1 = prompt("Enter first number: ");
 var num2 =  prompt("Enter second number: ");
 
 num1 = parseInt(num1,10);
@@ -119,4 +119,16 @@ div =  num1 / num2;
 document.write(num1 + "/" + num2 + " = " +div +"<br/>");
 
 rem =  num1 % num2;
-document.write(num1 + "%" + num2 + " = " +rem +"<br/>");
+document.write(num1 + "%" + num2 + " = " +rem +"<br/>");*/
+
+
+/*-------------Area of various shapes----------*/
+
+var base =parseFloat(prompt("Enter Base: "));
+var hight = parseFloat(prompt("Enter Hight: "));
+
+//var area = base * hight;
+//document.write("area =" + area );
+
+var area = (base * hight) / 2;
+document.write("area =" + area );
