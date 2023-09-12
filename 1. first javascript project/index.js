@@ -182,35 +182,70 @@ else
 
  /*----------- letter grade-----------*/
 
- var marks = parseFloat(prompt("Enter your Marks: "));
+ /*var marks = parseFloat(prompt("Enter your Marks: "));
 
-  if(marks >= 50){
+ if(marks>100 || marks < 0){
+    document.write("invalid marks");
+
+ }
+
+ else if(marks >= 80 && marks<=100){
     document.write("Your Grade is : B ");
  }
- else if (marks >= 70) {
+ else if (marks >= 70 && marks<=79) {
     document.write("Your Grade is : A ");
 }
 
-else if (marks >= 60) {
+else if (marks >= 60 && marks<=69) {
     document.write("Your Grade is : A- ");
 }
- else if(marks >= 50){
+ else if(marks >= 50 && marks<=49){
     document.write("Your Grade is : B ");
  }
 
- else if(marks >= 40){
+ else if(marks >= 40 && marks<=49){
     document.write("Your Grade is : c ");
  }
  
- else if(marks >= 33){
+ else if(marks >= 33 && marks<=39){
     document.write("Your Grade is : D ");
  }
 
  else {
     document.write("Your Grade is : F ");
- }
+ }*/
  
-
-
-
 /*----loop control -> for , while , do while--------*/
+
+/*var num1 = prompt("Enter num1 : ");
+var num2 = prompt("Enter num2 : ");
+var num3 = prompt("Enter num3 : ");
+
+if(num1>num2 && num1>num3){
+document.write("Large number = " + num1);
+}
+
+else if(num2>num1 && num2>num3){
+    document.write("Large number = " + num2);
+    }
+    else{
+        document.write("Large number = " + num3);
+        }*/
+
+//vowel / consonant 
+
+var letter = prompt("Enter a letter : ");
+
+letter = letter.toLowerCase();
+
+if(letter== "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"){
+    document.write("Vowel");
+}
+
+/*else if(letter== "A" || letter == "E" || letter == "I" || letter == "O" || letter == "U"){
+    document.write("Vowel");
+}*/
+
+else {
+    document.write("Consonant");
+}
