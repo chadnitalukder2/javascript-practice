@@ -153,4 +153,64 @@ document.write("fahrenheit = " + farn );*/
 
 //logical Operator-> && (sob gula true hole true or false)
                    //  ||  ,(je kunu ekta true hole ture)
-                   // !  (not) (true hole false)
+                   // !  (not) (true hole false);
+
+
+/*------control statement---------*/
+
+/*----Corditional -> if , else if,  else -swutch-------*/
+//even/odd
+/*var num = 5;
+
+if (num % 2 == 0)
+    console.log("Even");
+else
+ console.log("Odd");*/
+
+
+    //if(num%2!==0);
+
+///----------positive / negative
+
+/*var num = 6;
+if (num > 0)
+  console.log("Positive");
+else if (num < 0)
+  console.log("Negative");
+else
+  console.log("Zero");*/
+
+ /*----------- letter grade-----------*/
+
+ var marks = parseFloat(prompt("Enter your Marks: "));
+
+  if(marks >= 50){
+    document.write("Your Grade is : B ");
+ }
+ else if (marks >= 70) {
+    document.write("Your Grade is : A ");
+}
+
+else if (marks >= 60) {
+    document.write("Your Grade is : A- ");
+}
+ else if(marks >= 50){
+    document.write("Your Grade is : B ");
+ }
+
+ else if(marks >= 40){
+    document.write("Your Grade is : c ");
+ }
+ 
+ else if(marks >= 33){
+    document.write("Your Grade is : D ");
+ }
+
+ else {
+    document.write("Your Grade is : F ");
+ }
+ 
+
+
+
+/*----loop control -> for , while , do while--------*/
