@@ -124,11 +124,24 @@ document.write(num1 + "%" + num2 + " = " +rem +"<br/>");*/
 
 /*-------------Area of various shapes----------*/
 
-var base =parseFloat(prompt("Enter Base: "));
+/*var base =parseFloat(prompt("Enter Base: "));
 var hight = parseFloat(prompt("Enter Hight: "));
 
 //var area = base * hight;
 //document.write("area =" + area );
 
 var area = (base * hight) / 2;
-document.write("area =" + area );
+document.write("area =" + area );*/
+
+/*----------Temperature Converter-----------*/
+
+/*var farn = parseFloat(prompt("enter fahrenheit = "));
+
+var cels = (farn - 32) * (5 / 9);
+document.write("Celsius = " + cels);*/
+
+var cels = parseFloat(prompt("enter Celsius  = "));
+
+var farn = ( cels * (9 / 5)) + 32;
+document.write("fahrenheit = " + farn );
+
