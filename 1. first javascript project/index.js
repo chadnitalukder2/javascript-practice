@@ -140,8 +140,17 @@ document.write("area =" + area );*/
 var cels = (farn - 32) * (5 / 9);
 document.write("Celsius = " + cels);*/
 
-var cels = parseFloat(prompt("enter Celsius  = "));
+/*var cels = parseFloat(prompt("enter Celsius  = "));
 
 var farn = ( cels * (9 / 5)) + 32;
-document.write("fahrenheit = " + farn );
+document.write("fahrenheit = " + farn );*/
 
+/*-----------Reletional Operator--------- true false valu return kore----*/
+// Reletional Operator -> >, >=, < , <=, ==, ===, !=, !==
+
+
+/*-----------logical Operator--------- connect kore relatio re true false valu return kore----*/
+
+//logical Operator-> && (sob gula true hole true or false)
+                   //  ||  ,(je kunu ekta true hole ture)
+                   // !  (not) (true hole false)
