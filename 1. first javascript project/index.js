@@ -13,7 +13,7 @@ name = "sufia";
 age = "20"
 document.write(name);
 document.write(age);*/
- /*------- concatenate string--------*/
+/*------- concatenate string--------*/
 
 /*document.write("  chadni " + " talukder")
 
@@ -66,7 +66,6 @@ document.write("Number of character" + fullName.length);
 text = fullName.toUpperCase();
 document.write(text);*/
 
-
 /*---------- Arithmetic And assignment operator-----*/
 //Arithmetic operator -> + , - , * , / , %(bagfol, modulus), **(power, Exponent), ++ , --
 
@@ -98,7 +97,6 @@ document.write("addition = " + sum + "<br/>")
 sub = num1 - num2;
 document.write("subtraction = " + sub)*/
 
-
 /*var num1 = prompt("Enter first number: ");
 var num2 =  prompt("Enter second number: ");
 
@@ -120,7 +118,6 @@ document.write(num1 + "/" + num2 + " = " +div +"<br/>");
 
 rem =  num1 % num2;
 document.write(num1 + "%" + num2 + " = " +rem +"<br/>");*/
-
 
 /*-------------Area of various shapes----------*/
 
@@ -148,13 +145,11 @@ document.write("fahrenheit = " + farn );*/
 /*-----------Reletional Operator---------true false valu return kore----*/
 // Reletional Operator -> >, >=, < , <=, ==, ===, !=, !==
 
-
 /*-----------logical Operator--------- connect kore relatio re true false valu return kore----*/
 
 //logical Operator-> && (sob gula true hole true or false)
-                   //  ||  (je kunu ekta true hole ture)
-                   // !  (not) (true hole false);
-
+//  ||  (je kunu ekta true hole ture)
+// !  (not) (true hole false);
 
 /*------control statement---------*/
 
@@ -167,8 +162,7 @@ if (num % 2 == 0)
 else
  console.log("Odd");*/
 
-
-    //if(num%2!==0);
+//if(num%2!==0);
 
 ///----------positive / negative
 
@@ -180,9 +174,9 @@ else if (num < 0)
 else
   console.log("Zero");*/
 
- /*----------- letter grade-----------*/
+/*----------- letter grade-----------*/
 
- /*var marks = parseFloat(prompt("Enter your Marks: "));
+/*var marks = parseFloat(prompt("Enter your Marks: "));
 
  if(marks>100 || marks < 0){
     document.write("invalid marks");
@@ -213,8 +207,6 @@ else if (marks >= 60 && marks<=69) {
  else {
     document.write("Your Grade is : F ");
  }*/
- 
-
 
 /*var num1 = prompt("Enter num1 : ");
 var num2 = prompt("Enter num2 : ");
@@ -231,7 +223,7 @@ else if(num2>num1 && num2>num3){
         document.write("Large number = " + num3);
         }*/
 
-//vowel / consonant 
+//vowel / consonant
 
 /*var letter = prompt("Enter a letter : ");
 
@@ -324,7 +316,6 @@ if((alphabet>="A") && (alphabet <= "Z") || (alphabet>="a") && (alphabet <= "z"))
 else{
     document.write("not alpabet")
 }*/
-
 
 // alpabet or digit
 /*var letter = prompt("enter charcter: ")
@@ -424,7 +415,46 @@ else{
 
 //x+y = 15, x-y =5 x and y = ?
 
-var x = 3;
+/*var x = 3;
 var y = 4;
  var result = (x + y) ** 2;
- document.write("result =" +result);
+ document.write("result =" +result);*/
+
+/*-----------switch------------*/
+
+var digit = prompt("enter any digit: ");
+
+switch (digit) {
+  case "0":
+    document.write("Zero");
+    break;
+  case "1":
+    document.write("one");
+    break;
+  case "2":
+    document.write("two");
+    break;
+  case "3":
+    document.write("three");
+    break;
+  case "4":
+    document.write("four");
+    break;
+  case "5":
+    document.write("five");
+    break;
+  case "6":
+    document.write("six");
+    break;
+  case "7":
+    document.write("seven");
+    break;
+  case "8":
+    document.write("eight");
+    break;
+  case "9":
+    document.write("nine");
+    break;
+    default:
+        document.write("not a digit");
+}
