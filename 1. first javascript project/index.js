@@ -31,7 +31,7 @@ document.write("my name is" + fullName + "Puja")*/
 /*var text = "Bangladesh";
 document.write("number of character" + text.length)
 
-//ar len = text.length;
+//var len = text.length;
 //document.write("Number of character" + len);*/
 
 /*var text = prompt("Enter your name : ");
@@ -145,14 +145,14 @@ document.write("Celsius = " + cels);*/
 var farn = ( cels * (9 / 5)) + 32;
 document.write("fahrenheit = " + farn );*/
 
-/*-----------Reletional Operator--------- true false valu return kore----*/
+/*-----------Reletional Operator---------true false valu return kore----*/
 // Reletional Operator -> >, >=, < , <=, ==, ===, !=, !==
 
 
 /*-----------logical Operator--------- connect kore relatio re true false valu return kore----*/
 
 //logical Operator-> && (sob gula true hole true or false)
-                   //  ||  ,(je kunu ekta true hole ture)
+                   //  ||  (je kunu ekta true hole ture)
                    // !  (not) (true hole false);
 
 
@@ -186,7 +186,6 @@ else
 
  if(marks>100 || marks < 0){
     document.write("invalid marks");
-
  }
 
  else if(marks >= 80 && marks<=100){
@@ -215,7 +214,7 @@ else if (marks >= 60 && marks<=69) {
     document.write("Your Grade is : F ");
  }*/
  
-/*----loop control -> for , while , do while--------*/
+
 
 /*var num1 = prompt("Enter num1 : ");
 var num2 = prompt("Enter num2 : ");
@@ -234,18 +233,51 @@ else if(num2>num1 && num2>num3){
 
 //vowel / consonant 
 
-var letter = prompt("Enter a letter : ");
+/*var letter = prompt("Enter a letter : ");
 
 letter = letter.toLowerCase();
 
 if(letter== "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"){
     document.write("Vowel");
-}
 
-/*else if(letter== "A" || letter == "E" || letter == "I" || letter == "O" || letter == "U"){
+    /*else if(letter== "A" || letter == "E" || letter == "I" || letter == "O" || letter == "U"){
     document.write("Vowel");
-}*/
+}
 
 else {
     document.write("Consonant");
+}
+*/
+/*C program to check number is divisibility by 5 and 11 */
+/*var num = prompt("Enter a letter : ");
+
+if ( (num % 5 == 0) && (num % 11 == 0)){
+    document.write("Number is divisible by 5 and 11");
+}
+
+else
+document.write("Number is not divisible by 5 and 11");*/
+
+// min between 5 number
+
+var num1 = prompt("Enter number one :");
+var num2 = prompt("Enter number tow :");
+var num3 = prompt("Enter number three :");
+var num4 = prompt("Enter number four :");
+var num5 = prompt("Enter number five :");
+
+if(num1<num2 && num1<num3 && num1<num4 && num1<num5){
+    document.write("minimum number : " +num1)
+}
+else if(num2<num1 && num2<num3 && num2<num4 && num2<num5){
+    document.write("minimum number : " +num2)
+}
+if(num3<num1 && num3<num2 && num3<num4 && num3<num5){
+    document.write("minimum number : " +num3)
+}
+else if(num4<num1 && num4<num1 && num4<num3 && num4<num5){
+    document.write("minimum number : " +num1)
+}
+else{
+    document.write("minimum numbe: " +num5)
 }
