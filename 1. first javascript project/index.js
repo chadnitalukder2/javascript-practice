@@ -327,7 +327,7 @@ else{
 
 
 // alpabet or digit
-var letter = prompt("enter charcter: ")
+/*var letter = prompt("enter charcter: ")
 
 if((letter >="A" && letter<="Z") || (letter>="a" && letter<="z")){
     document.write("alpaber:" +letter)
@@ -337,4 +337,87 @@ else if(letter >="0" && letter<="9"){
 }
 else {
     document.write("special: " +letter)
+}*/
+
+//uppercase or lowercase
+/*var letter =prompt("enter a letter :" );
+
+if(letter>="A" && letter<="Z"){
+    document.write("uppercase : " +letter);
+}
+else{
+    document.write("lowercase : " +letter);
+}*/
+
+//input week number and print week day.
+/*var week =prompt("input a number: ");
+
+if(week == 1){
+    document.write("week name is Saturday ")
+}
+else if(week == 2){
+    document.write("week name is Sunday ")
+}
+else if(week == 3){
+    document.write("week name is Monday ")
+}
+else if(week == 4){
+    document.write("week name is Tuesday ")
+}
+else if(week == 5){
+    document.write("week name is Wednesday ")
+}
+else if(week == 6){
+    document.write("week name is Thursday ")
+}
+else if (week == 7){
+    document.write("week name is Friday ")
+}
+else{
+    document.write("Invalid Input! ")
+}
+*/
+
+//input month number and print number of days in that month.
+
+var month = prompt("enter a month name: ");
+
+if(month === "January"){
+    document.write( month + " 31 days");
+}
+else if(month === "February"){
+    document.write(month + " 28 /29 days");
+}
+else if(month === "March"){
+    document.write(month + " 31 days");
+}
+else if(month === "April"){
+    document.write(month + " 30 days");
+}
+else if(month === "May"){
+    document.write(month + " 31 days");
+}
+else if(month === "June"){
+    document.write(month + " 30 days");
+}
+else if(month === "July"){
+    document.write(month + " 31 days");
+}
+else if(month === "August"){
+    document.write(month + " 31 days");
+}
+else if(month === "September"){
+    document.write(month + " 30 days");
+}
+else if(month === "October"){
+    document.write(month + " 31 days");
+}
+else if(month === "November"){
+    document.write(month + " 30 days");
+}
+else if(month === "December"){
+    document.write(month + " 31 days");
+}
+else{
+    document.write(month + " invalid");
 }
