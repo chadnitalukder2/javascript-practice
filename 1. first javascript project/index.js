@@ -306,11 +306,35 @@ else{
 
 //leap year
 
-var year = prompt("enter year: ")
+/*var year = prompt("enter year: ");
 
 if(year % 4 == 0 ){
-    document.write("leap year")
+    document.write("leap year");
 }
 else{
-    document.write("not leap year")
+    document.write("not leap year");
+}*/
+
+//alphabet or not
+/*var alphabet = prompt("enter alphabet: ");
+
+if((alphabet>="A") && (alphabet <= "Z") || (alphabet>="a") && (alphabet <= "z")){
+    document.write("alphanet");
+}
+else{
+    document.write("not alpabet")
+}*/
+
+
+// alpabet or digit
+var letter = prompt("enter charcter: ")
+
+if((letter >="A" && letter<="Z") || (letter>="a" && letter<="z")){
+    document.write("alpaber:" +letter)
+}
+else if(letter >="0" && letter<="9"){
+    document.write("digit:" +letter)
+}
+else {
+    document.write("special: " +letter)
 }
