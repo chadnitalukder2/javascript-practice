@@ -260,7 +260,7 @@ document.write("Number is not divisible by 5 and 11");*/
 
 // min between 5 number
 
-var num1 = prompt("Enter number one :");
+/*var num1 = prompt("Enter number one :");
 var num2 = prompt("Enter number tow :");
 var num3 = prompt("Enter number three :");
 var num4 = prompt("Enter number four :");
@@ -280,4 +280,26 @@ else if(num4<num1 && num4<num1 && num4<num3 && num4<num5){
 }
 else{
     document.write("minimum numbe: " +num5)
+}*/
+
+// + ,- ,* ,/
+
+var num1 = parseFloat(prompt("enter a number: "));
+var operator = prompt("enter a oparator: ")
+var num2 = parseFloat(prompt("enter a number: "));
+ var result
+if(operator === "+"){
+    document.write(result = num1 + num2);
+}
+else if(operator === "-"){
+    document.write(result = num1 - num2);
+}
+else if(operator === "*"){
+    document.write(result = num1 * num2);
+}
+else if(operator === "/"){
+    document.write(result = num1 / num2);
+}
+else{
+    document.write("Invalid operator")
 }
