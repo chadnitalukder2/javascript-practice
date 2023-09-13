@@ -380,7 +380,7 @@ else{
 
 //input month number and print number of days in that month.
 
-var month = prompt("enter a month name: ");
+/*var month = prompt("enter a month name: ");
 
 if(month === "January"){
     document.write( month + " 31 days");
@@ -420,4 +420,11 @@ else if(month === "December"){
 }
 else{
     document.write(month + " invalid");
-}
+}*/
+
+//x+y = 15, x-y =5 x and y = ?
+
+var x = 3;
+var y = 4;
+ var result = (x + y) ** 2;
+ document.write("result =" +result);
