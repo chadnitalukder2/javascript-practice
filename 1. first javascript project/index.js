@@ -284,7 +284,7 @@ else{
 
 // + ,- ,* ,/
 
-var num1 = parseFloat(prompt("enter a number: "));
+/*var num1 = parseFloat(prompt("enter a number: "));
 var operator = prompt("enter a oparator: ")
 var num2 = parseFloat(prompt("enter a number: "));
  var result
@@ -302,4 +302,15 @@ else if(operator === "/"){
 }
 else{
     document.write("Invalid operator")
+}*/
+
+//leap year
+
+var year = prompt("enter year: ")
+
+if(year % 4 == 0 ){
+    document.write("leap year")
+}
+else{
+    document.write("not leap year")
 }
