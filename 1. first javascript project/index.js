@@ -422,7 +422,7 @@ var y = 4;
 
 /*-----------switch------------*/
 
-var digit = prompt("enter any digit: ");
+/*var digit = prompt("enter any digit: ");
 
 switch (digit) {
   case "0":
@@ -457,4 +457,21 @@ switch (digit) {
     break;
     default:
         document.write("not a digit");
+}*/
+
+//vowel or consonent
+
+var letter = prompt("enter a letter: ");
+letter = letter.toLowerCase();
+
+switch (letter) {
+  case "a":
+  case "e":
+  case "i":
+  case "o" :
+  case "u":
+    document.write("vowel");
+    break;
+    default:
+        document.write("consonent");
 }
