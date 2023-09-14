@@ -461,7 +461,7 @@ switch (digit) {
 
 //vowel or consonent
 
-var letter = prompt("enter a letter: ");
+/*var letter = prompt("enter a letter: ");
 letter = letter.toLowerCase();
 
 switch (letter) {
@@ -474,4 +474,40 @@ switch (letter) {
     break;
     default:
         document.write("consonent");
+}*/
+
+//--------------------------- for------------------------------
+
+//for(starting, condition , update)  //x++
+/*for(var x = 1; x <= 10; x = x + 1 ){
+    document.write("<h1>Bangladesh <h1/>");
 }
+document.write("<h1>End<h1/>");*/
+
+//
+/*for(var x = 1; x <= 100; x = x + 1 ){
+    document.write(" " +x);
+}
+
+document.write("end " );*/
+
+
+/*---------------------for loop----------------------*/
+
+//1+2+3+4+5 =
+/*var m = parseInt(prompt("enter the starting number :"));
+var n = parseInt(prompt("enter the last number :"));
+var sum = 0;
+for(var x = m; x <= n; x = x + 1 ){
+//for(var x = 1; x <= 5; x = x + 1 ){
+    sum = sum + x ;
+}
+document.write(" sum =" +sum);*/
+
+    for (var x = 1; x <=  5; x++){
+    var num1 = parseInt(prompt("enter firts number : "));
+    var num2 = parseInt(prompt("enter second number : "));
+    var sum = num1 + num2;
+    document.write("result = " +sum);
+}
+
