@@ -535,7 +535,7 @@ document.write("<h1>end<h1/>");*/
 
 //divisible by 3 and 5 from-100
 
-var x = 1;
+/*var x = 1;
 var sum = 0;
 while (x <= 100) {
     if (x%3==0 && x%5==0) {
@@ -544,4 +544,17 @@ while (x <= 100) {
     }
     x++;
 }
-document.write(" sum = " + sum);
+document.write(" sum = " + sum);*/
+
+
+/*---------------------------do while--------------------*/
+
+var i = 1;
+do{
+    document.write(" " + i);
+   // i = i + 1;
+   i++;
+
+
+}
+while(i <= 20);
