@@ -52,3 +52,50 @@ switch (letter) {
     default:
         document.write("consonent");
 }*/
+
+//---------------positive negative zero-----------------
+/*var num = parseInt(prompt("enter any number : "));
+
+switch (true) { // Use true for comparison
+  case num > 0:
+    document.write("Positive " + num);
+    break;
+  case num < 0:
+    document.write("Negative " + num);
+    break;
+  default:
+    document.write("Zero " + num);
+}*/
+
+//+ , - ,* /
+
+var num1 = parseFloat(prompt("Enter the first number: "));
+var op = prompt("Enter an operator (+, -, *, /): ");
+var num2 = parseFloat(prompt("Enter the second number: "));
+var result;
+
+switch (op) {
+  case '+':
+    result = num1 + num2;
+    break;
+  case '-':
+    result = num1 - num2;
+    break;
+  case '*':
+    result = num1 * num2;
+    break;
+  case '/':
+    if (num2 !== 0) {
+      result = num1 / num2;
+    } else {
+      document.write("Division by zero is not allowed.");
+      break;
+    }
+    break;
+  default:
+    document.write("Invalid operator");
+}
+
+if (typeof result !== 'undefined') {
+  document.write("Result: " + result);
+}
