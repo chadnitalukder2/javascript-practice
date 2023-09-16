@@ -85,15 +85,21 @@ for(var x = 1 ; x <= 10; x++){
 
 //multiplier table vertically from 1 to n.
 
-for(var i = 1; i <= 10; i++){
+/*for(var i = 1; i <= 10; i++){
    
     for(var j = 1; j <= 12; j++){
         multi = i * j;
         document.write(i + " x " + j + " = " + multi +"<br/>");
-       
     }
-      
+}*/
+
+// odd natural numbers and their sum.
+var sum = 0;
+for (var x = 1; x <= 10; x++) {
+    sum += x *2 -1
+   // document.write("sum: " + sum +"<br/>");
 }
+document.write("sum: " + sum +"<br/>");
 
 
 
