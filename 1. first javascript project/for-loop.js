@@ -56,7 +56,6 @@ document.write("The Sum of Natural Number upto 7 terms :" + sum)
 */
 
 //10 numbers from the keyboard and find their sum and average.
-
 /*var sum = 0 ;
 var average = 0;
 
@@ -84,7 +83,6 @@ for(var x = 1 ; x <= 10; x++){
 }*/
 
 //multiplier table vertically from 1 to n.
-
 /*for(var i = 1; i <= 10; i++){
    
     for(var j = 1; j <= 12; j++){
@@ -100,6 +98,14 @@ for (var x = 1; x <= 10; x++) {
    // document.write("sum: " + sum +"<br/>");
 }
 document.write("sum: " + sum +"<br/>");*/
+
+//even natural numbers and their sum.
+/*var sum = 0;
+for (var x = 1; x <= 5; x++) {
+    sum += x * 2 
+   document.write(x +"<br/>");
+}
+document.write("sum: " + sum );*/
 
 // pattern like a right angle triangle with a number.
 /*for (var i = 1; i <= 10; i++) {
@@ -135,7 +141,7 @@ document.write("sum: " + sum +"<br/>");*/
   }*/
 
   // make a pyramid pattern with numbers increased by 1.
-  let n = 6;
+  /*let n = 6;
   let string = "";
   // External loop
   for (let i = 1; i <= n; i++) {
@@ -150,6 +156,22 @@ document.write("sum: " + sum +"<br/>");*/
     string += "\n";
   }
   console.log(string);
+*/
+
+// calculate the factorial of a given number.
+/* var  factorial = 1;
+for(var x = 1 ; x <= 5; x++){
+  factorial =  factorial * x;
+
+}
+document.write(factorial);*/
+
+
+
+
+
+
+
 
 /*-------------------while loop---------------------*/
 
