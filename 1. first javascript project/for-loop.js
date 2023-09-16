@@ -118,8 +118,8 @@ document.write("sum: " + sum +"<br/>");*/
   }*/
 
   //pattern like a right angle triangle with a number which will repeat a number in a row.
-  /*for (var i = 1; i <= 10; i++) {
-    for (var j = 1; j <= i; j++) {
+  /* for (var i = 1; i <= 10; i++) {
+   for (var j = 1; j <= i; j++) {
       document.write( i );
     }
     document.write("" +"<br/>");
@@ -127,14 +127,29 @@ document.write("sum: " + sum +"<br/>");*/
 
   //make such a pattern like a right angle triangle with the number increased by 1.
  /*var k = 1
-  for (var i = 1; i <= 10; i++) {
+  for (var i = 1; i <= 4; i++) {
     for (var j = 1; j <= i; j++) {
-      document.write( k++ );
+      document.write( k++);
     }
-    document.write("" +"<br/>");
+    document.write("" + "<br/>");
   }*/
 
-  //
+  // make a pyramid pattern with numbers increased by 1.
+  let n = 6;
+  let string = "";
+  // External loop
+  for (let i = 1; i <= n; i++) {
+    // printing spaces
+    for (let j = 1; j <= n - i; j++) {
+      string += " ";
+    }
+    // printing star
+    for (let k = 0; k < 2 * i - 1; k++) {
+      string += k;
+    }
+    string += "\n";
+  }
+  console.log(string);
 
 /*-------------------while loop---------------------*/
 
