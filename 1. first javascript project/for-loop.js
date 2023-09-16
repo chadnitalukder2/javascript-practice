@@ -71,11 +71,19 @@ document.write("sum :" + sum);
 */
 
 //display the cube of the number up to an integer.
- 
-for(var x = 1; x <=10; x++){
+/*for(var x = 1; x <=10; x++){
 
   document.write("Number is : " + x + " and cube of the 1 is : " + x ** 3 + "<br/>");
+}*/
+
+// multiplication table for a given integer.
+var n = 15;
+for(var x = 1 ; x <= 10; x++){
+    multi = n * x;
+    document.write(n + "*" + x + " = " + multi +"<br/>");
 }
+
+
 
 
 
