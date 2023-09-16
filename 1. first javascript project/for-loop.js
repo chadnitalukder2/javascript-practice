@@ -71,7 +71,12 @@ document.write("sum :" + sum);
 */
 
 //display the cube of the number up to an integer.
- var
+ 
+for(var x = 1; x <=10; x++){
+
+  document.write("Number is : " + x + " and cube of the 1 is : " + x ** 3 + "<br/>");
+}
+
 
 
 /*-------------------while loop---------------------*/
