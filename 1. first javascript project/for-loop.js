@@ -77,12 +77,23 @@ document.write("sum :" + sum);
 }*/
 
 // multiplication table for a given integer.
-var n = 15;
+/*var n = 15;
 for(var x = 1 ; x <= 10; x++){
     multi = n * x;
-    document.write(n + "*" + x + " = " + multi +"<br/>");
-}
+    document.write(n + " x " + x + " = " + multi +"<br/>");
+}*/
 
+//multiplier table vertically from 1 to n.
+
+for(var i = 1; i <= 10; i++){
+   
+    for(var j = 1; j <= 12; j++){
+        multi = i * j;
+        document.write(i + " x " + j + " = " + multi +"<br/>");
+       
+    }
+      
+}
 
 
 
