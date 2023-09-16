@@ -94,13 +94,20 @@ for(var x = 1 ; x <= 10; x++){
 }*/
 
 // odd natural numbers and their sum.
-var sum = 0;
+/*var sum = 0;
 for (var x = 1; x <= 10; x++) {
     sum += x *2 -1
    // document.write("sum: " + sum +"<br/>");
 }
-document.write("sum: " + sum +"<br/>");
+document.write("sum: " + sum +"<br/>");*/
 
+// pattern like a right angle triangle with a number.
+for (var i = 1; i <= 10; i++) {
+    for (var j = 1; j <= i; j++) {
+      document.write("*" );
+    }
+    document.write("" +"<br/>");
+  }
 
 
 
