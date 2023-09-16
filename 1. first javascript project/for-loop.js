@@ -102,14 +102,39 @@ for (var x = 1; x <= 10; x++) {
 document.write("sum: " + sum +"<br/>");*/
 
 // pattern like a right angle triangle with a number.
-for (var i = 1; i <= 10; i++) {
+/*for (var i = 1; i <= 10; i++) {
     for (var j = 1; j <= i; j++) {
-      document.write("*" );
+      document.write( "*" );
     }
     document.write("" +"<br/>");
-  }
+  }*/
 
+  //pattern like a right angle triangle with a number.
+  /*for (var i = 1; i <= 10; i++) {
+    for (var j = 1; j <= i; j++) {
+      document.write( j );
+    }
+    document.write("" +"<br/>");
+  }*/
 
+  //pattern like a right angle triangle with a number which will repeat a number in a row.
+  /*for (var i = 1; i <= 10; i++) {
+    for (var j = 1; j <= i; j++) {
+      document.write( i );
+    }
+    document.write("" +"<br/>");
+  }*/
+
+  //make such a pattern like a right angle triangle with the number increased by 1.
+ /*var k = 1
+  for (var i = 1; i <= 10; i++) {
+    for (var j = 1; j <= i; j++) {
+      document.write( k++ );
+    }
+    document.write("" +"<br/>");
+  }*/
+
+  //
 
 /*-------------------while loop---------------------*/
 
