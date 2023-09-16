@@ -28,10 +28,50 @@ document.write(" sum =" +sum);*/
  /*   for (var x = 1; x <=  5; x++){
     var num1 = parseInt(prompt("enter firts number : "));
     var num2 = parseInt(prompt("enter second number : "));
-    var sum = num1 + num2;
+     sum = num1 + num2;
     document.write("result = " +sum);
 }
 */
+
+// The first 10 natural number
+/*for(var x = 1; x <= 10 ; x++){
+    document.write( x  +"<br/>");
+}*/
+
+//sum 10 number
+/*var sum = 0;
+for(var x = 1; x <= 10; x = x + 1){
+ sum = sum + x
+}
+document.write("sum = " +sum);*/
+
+// terms of natural numbers and their sum.
+/*var sum = 0 ;
+for(var x = 1; x<=10; x = x + 1 ){
+    sum = sum + x
+    document.write("number " + x +"<br/>" );
+}
+
+document.write("The Sum of Natural Number upto 7 terms :" + sum)
+*/
+
+//10 numbers from the keyboard and find their sum and average.
+
+/*var sum = 0 ;
+var average = 0;
+
+for (var x = 1 ; x <= 10; x = x + 1 ){
+    sum = sum + x;
+    average = sum / x;
+
+}
+document.write("average :" + average +("<br/>"));
+
+document.write("sum :" + sum);
+*/
+
+//display the cube of the number up to an integer.
+ var
 
 
 /*-------------------while loop---------------------*/
@@ -69,8 +109,3 @@ while (x <= 100) {
     x++;
 }
 document.write(" sum = " + sum);*/
-
-
-/*---------------------------do while-------------------------------*/
-
-/*var i = 1;

@@ -71,21 +71,7 @@ document.write("Number of character" + fullName.length);
 text = fullName.toUpperCase();
 document.write(text);*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-do{
+/*do{
     document.write(" " + i);
    // i = i + 1;
    i++;

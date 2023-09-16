@@ -69,7 +69,7 @@ switch (true) { // Use true for comparison
 
 //+ , - ,* /
 
-var num1 = parseFloat(prompt("Enter the first number: "));
+/*var num1 = parseFloat(prompt("Enter the first number: "));
 var op = prompt("Enter an operator (+, -, *, /): ");
 var num2 = parseFloat(prompt("Enter the second number: "));
 var result;
@@ -98,4 +98,4 @@ switch (op) {
 
 if (typeof result !== 'undefined') {
   document.write("Result: " + result);
-}
+}*/
