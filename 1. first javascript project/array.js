@@ -1,9 +1,9 @@
-var name1, name2, name3, name4, name5;
+/*var name1, name2, name3, name4, name5;
 name1 = "asha";
 name2 = "prem";
 name3 = "chad";
 name4 = "chadni";
-name5 = "puja";
+name5 = "puja";*/
 //console.log(name3);
 
 //array
@@ -21,8 +21,68 @@ names.pop(); //ses er value remove hobe
 console.log(names);
 console.log(names.length);*/
 
-var country1 = ["Bangladesh", "india"];
+/*var country1 = ["Bangladesh", "india"];
 var country2 = ["Pakistan", "Nepal"];
 
 var country = country1.concat(country2); ///concat jukto kore
-console.log(country);
+console.log(country);*/
+
+//---------------array loop-------------------------------
+//var num = [10, 20, 30, 40, 50];
+/*var num = new Array();
+for(var i =0 ; i<5; i++){
+    num[i]= parseInt(prompt("enter a number : "))
+}
+var sum = 0;
+
+for(var i = 0; i<5; i++){
+    console.log(num[i]);
+    sum = sum + num[i];
+}
+console.log ("sum =" +sum);*/
+
+//shipt 1st dike teke remove kore opposite of pop
+/*var names = ["puja", "nitesh", "Prem"];
+console.log(names);
+names.shift();
+console.log(names);*/
+
+//unshipt 1st dike element add kore opposite of push
+/*var names = ["puja", "nitesh", "Prem"];
+console.log(names);
+names.unshift("chad");
+console.log(names);*/
+
+//splice-add-----------
+/*var names = ["puja", "nitesh", "Prem"];
+console.log(names);
+names.splice(2,1, "asha", "anis"); //splice (2,0) 2 1st dara bujay koto numbere element jukto korte chaw 02nd dara remove kora
+console.log(names)*/
+
+//splice-remove-----------
+/*var names = ["puja", "nitesh", "Prem"];
+console.log(names);
+names.splice(1,2);
+console.log(names);*/
+
+//slices-------------------------------
+/*var names = ["puja", "nitesh", "Prem"];
+console.log(names);
+var newArray = names.slice(1);
+console.log(newArray)*/
+
+//sort- alpabet----------------------------------
+/*var names = ["asha", "nitesh", "chadni"];
+console.log(names);
+var sortedNames = names.sort();
+//names.reverse();
+console.log(sortedNames);*/
+
+//sort ---number ------------------
+/*var numbers = [20 , 45, 4, 70, 80];
+numbers.sort(function(a,b){
+   // return a-b
+    return b-a
+});
+console.log(numbers);*/
+
