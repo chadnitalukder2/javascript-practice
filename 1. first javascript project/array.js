@@ -103,7 +103,7 @@ let scores = [21, 28, 1, 88, 15];
 console.log(maxScore)*/
 
 //------------2D array----------------------------
-  function highestRunScore(playersInfo){
+ /* function highestRunScore(playersInfo){
     
     var highestScore = playersInfo[0][0];
     var highestScore = playersInfo[0][1];
@@ -123,7 +123,7 @@ console.log(maxScore)*/
     ["lu", 105],
   ];
 var name = highestRunScore(playersInfo);
-console.log(name);
+console.log(name);*/
 
 
 
