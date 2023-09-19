@@ -87,7 +87,7 @@ numbers.sort(function(a,b){
 console.log(numbers);*/
 
 // ---------------1D array-------------
- console.clear();
+/* console.clear();
 function highestScore(scores) {
  let max = scores[0];
  for(var x = 1; x<scores.length; x++){
@@ -100,4 +100,30 @@ return max;
 }
 let scores = [21, 28, 1, 88, 15];
  var maxScore = highestScore(scores);
-console.log(maxScore)
+console.log(maxScore)*/
+
+//------------2D array----------------------------
+  function highestRunScore(playersInfo){
+    
+    var highestScore = playersInfo[0][0];
+    var highestScore = playersInfo[0][1];
+
+    for( var x = 1; x < playersInfo.length; x++){
+        if(highestScore < playersInfo[x] [1]){
+            highestScore = playersInfo[x] [1];
+            highestScore = playersInfo[x] [0];
+        }
+    }
+    return highestScore;
+  }
+  var playersInfo = [
+    ["Ashraful", 95],
+    ["Mizan", 25],
+    ["Rakib", 45],
+    ["lu", 105],
+  ];
+var name = highestRunScore(playersInfo);
+console.log(name);
+
+
+
