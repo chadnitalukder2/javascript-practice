@@ -35,10 +35,9 @@ console.log(student2.name);*/
 
 //----------------------------Math Object-------------------------
 //max------------------
-var num1 = parseInt(prompt("enter firts number : "));
+/*var num1 = parseInt(prompt("enter firts number : "));
 var num2 = parseInt(prompt("enter second number : "));
 
 var maximum = Math.max(num1,num2);
-console.log(maximum);
-
+console.log(maximum);*/
 //random--------------

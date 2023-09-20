@@ -43,3 +43,20 @@ display2("hi i am message");*/
 // ( ),{ }, [ ], < >
 
 // Task 7 : create an IIFEs that print sum of 2 numbers
+
+
+function findMinimun(a,b,c) {
+
+    if(a > c && b > c){
+        return c;
+    }
+    else if( a > b && c > b ){
+        return b;
+    } else {
+        return a;
+    }
+   
+}
+
+console.log(findMinimun(9,1,1));
+
