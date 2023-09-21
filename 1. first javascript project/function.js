@@ -1,4 +1,3 @@
-
 /*function sqaure(num1,num2) {
     //var num = 5;
     var result = num1 * num2 ;
@@ -26,8 +25,6 @@ addition(610,320);
 subtraction(10,20);
 subtraction(610,320);*/
 
-
-
 //IIFES (Immediately Invokeable Function Expression)
 
 /*(function display( message){
@@ -44,19 +41,17 @@ display2("hi i am message");*/
 
 // Task 7 : create an IIFEs that print sum of 2 numbers
 
+// function findMinimun(a,b,c) {
 
-function findMinimun(a,b,c) {
+//     if(a > c && b > c){
+//         return c;
+//     }
+//     else if( a > b && c > b ){
+//         return b;
+//     } else {
+//         return a;
+//     }
 
-    if(a > c && b > c){
-        return c;
-    }
-    else if( a > b && c > b ){
-        return b;
-    } else {
-        return a;
-    }
-   
-}
+// }
 
-console.log(findMinimun(9,1,1));
-
+// console.log(findMinimun(9,1,1));
