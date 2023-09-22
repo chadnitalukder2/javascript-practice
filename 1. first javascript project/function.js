@@ -27,9 +27,10 @@ subtraction(610,320);*/
 
 //IIFES (Immediately Invokeable Function Expression)
 
-/*(function display( message){
-    console.log(message);
-})("hello");*/
+function display(message) {
+  console.log(message);
+}
+display("hello");
 
 //Function Expressions
 /*var display2 = function displayMessage(message){
