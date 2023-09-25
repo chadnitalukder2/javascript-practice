@@ -81,12 +81,25 @@ while(i <= 20);*/
 //html selector--------------
 //document.getElementById("heading").innerHTML = "hello";
  
-var myheading =document.getElementById("heading");
+/*var myheading =document.getElementById("heading");
 myheading.innerHTML = "hello";
 
 document.getElementsByTagName("h1")[1].innerHTML = "puja";
 
 document.getElementsByClassName("pera")[0].innerHTML = "mANGO";
+*/
+
+/*//querySelector()
+// document.querySelector(".pera").innerHTML = "mANGO";
+// document.querySelector("#heading").innerHTML = "mANGO";
+// document.querySelector("h1").innerHTML = "hello";
+document.querySelector(".my-div a").innerHTML = "new text";
+document.querySelector("li a").innerHTML = "new text";*/
+
+//querySelectorAll
+//document.querySelectorAll("p")[0].innerHTML ="this is a text"
+
+
 
 
 
