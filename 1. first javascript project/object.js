@@ -43,7 +43,7 @@ console.log(maximum);*/
 //random--------------
 
 //date object
-var date = new Date();
+/*var date = new Date();
 console.log(date);
 
 var year = date.getFullYear();
@@ -53,4 +53,4 @@ var time = date.getHours();
 console.log(time);
 
 var month = date.getMonth();
-console.log(month);
+console.log(month);*/

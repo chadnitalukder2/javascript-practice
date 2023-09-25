@@ -77,3 +77,16 @@ document.write(text);*/
    i++;
 }
 while(i <= 20);*/
+
+//html selector--------------
+//document.getElementById("heading").innerHTML = "hello";
+ 
+var myheading =document.getElementById("heading");
+myheading.innerHTML = "hello";
+
+document.getElementsByTagName("h1")[1].innerHTML = "puja";
+
+document.getElementsByClassName("pera")[0].innerHTML = "mANGO";
+
+
+
