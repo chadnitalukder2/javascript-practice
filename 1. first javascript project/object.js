@@ -41,3 +41,16 @@ var num2 = parseInt(prompt("enter second number : "));
 var maximum = Math.max(num1,num2);
 console.log(maximum);*/
 //random--------------
+
+//date object
+var date = new Date();
+console.log(date);
+
+var year = date.getFullYear();
+console.log(year);
+
+var time = date.getHours();
+console.log(time);
+
+var month = date.getMonth();
+console.log(month);

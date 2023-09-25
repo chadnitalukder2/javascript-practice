@@ -1,4 +1,4 @@
-var numOfWon = 0;
+/*var numOfWon = 0;
 var numOfLost = 0;
 for ( var i = 0; i <= 5; i++){ 
 var guessNumber = parseInt(prompt("Enter a number from 1 to 5 : "));
@@ -15,4 +15,4 @@ else{
 }
 }
 document.write("Number of won = " + numOfWon + "<br/>");
-document.write("Number of Lost = " + numOfLost + "<br/>");
+document.write("Number of Lost = " + numOfLost + "<br/>");*/
