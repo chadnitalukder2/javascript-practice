@@ -60,9 +60,9 @@ const studentC = studentB.nextElementSibling;*/
 const studentB = studentC.previousElementSibling;*/
 
 //sideways - parentElement + children + index
-const studentA = document.querySelector("li");
+/*const studentA = document.querySelector("li");
 const studentList = studentA.parentElement;
-const studentC = studentList.children[2];
+const studentC = studentList.children[2];*/
 
 
 
