@@ -25,7 +25,7 @@ function prev(){
 }*/
 
 //Changing CSS style dynamically
-var myVar =  document.querySelector("#pera");
+/*var myVar =  document.querySelector("#pera");
 function addStyle(){
   myVar.classList.add("pera-style");
 //   myVar.style.fontSize = "3rem";
@@ -34,7 +34,30 @@ function addStyle(){
 }
 function removeStyle(){
   myVar.classList.remove("pera-style");
-}
+}*/
+
+//Event Listener
+/*document.querySelector("button").addEventListener("click", myFunction);
+function myFunction(){
+    alert("hello");
+}*/
+
+//anonimas function nam sara function
+/*document.querySelector("button").addEventListener("click", function(){
+    alert("hello")
+});*/
+
+var myVar = document.querySelector("h1");
+myVar.addEventListener("mouseover", function(){
+myVar.classList.add("heading-style");
+});
+myVar.addEventListener("mouseout", function(){
+    myVar.classList.remove("heading-style");
+    });
+
+
+
+
 
 
 
