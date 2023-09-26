@@ -18,11 +18,11 @@ function myMessage2(){
   }*/
  
   //add picture
-  var myVar = document.querySelector("#myImgId");
+ /* var myVar = document.querySelector("#myImgId");
 function myPicture1(){
   myVar.src ="./img/lemon-tea-bag-300x300.jpg";
 }
 var myVar = document.querySelector("#myImgId");
 function myPicture2(){
   myVar.src ="./img/groceray.jpg";
-}
+}*/
