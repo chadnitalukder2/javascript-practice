@@ -36,6 +36,44 @@ document.getElementById("my-div").classList.add("my-class2")
 document.getElementById("my-div").classList.remove("my-class")
 */
 
+///------------------------------------------------------////
+//Downwards- queryselector / queryselectorall
+
+/*const studentsList = document.querySelector(".student-list")
+const studentA = studentList.querySelector("student-a");*/
+
+//Downwards -childrens
+/*const studentsList = document.querySelector(".student-list");
+studentsLis.children;
+const studentA = studentList.children[0];*/
+
+//upwards - parentElement
+/*const studentA = document.querySelector("li");
+const studentList = studentA.parentElement;*/
+
+//sideways - nextElementSibling, previousElementSibling
+/*const studentA = document.querySelector("li");
+const studentB = studentA.nextElementSibling;
+const studentC = studentB.nextElementSibling;*/
+
+/*const studentC = document.querySelectorAll("li")[2];
+const studentB = studentC.previousElementSibling;*/
+
+//sideways - parentElement + children + index
+const studentA = document.querySelector("li");
+const studentList = studentA.parentElement;
+const studentC = studentList.children[2];
+
+
+
+
+
+
+
+
+
+
+
 
 
 
