@@ -24,7 +24,7 @@ function prev(){
     }
 }*/
 
-//Changing CSS style dynamically
+//Changing CSS style dynamically---------------------------------------------------------------------------
 /*var myVar =  document.querySelector("#pera");
 function addStyle(){
   myVar.classList.add("pera-style");
@@ -36,13 +36,13 @@ function removeStyle(){
   myVar.classList.remove("pera-style");
 }*/
 
-//Event Listener
+//Event Listener------------------------------------------------------------------------------------
 /*document.querySelector("button").addEventListener("click", myFunction);
 function myFunction(){
     alert("hello");
 }*/
 
-//anonimas function nam sara function
+//anonimas function nam sara function------------------------------------------
 /*document.querySelector("button").addEventListener("click", function(){
     alert("hello")
 });*/
@@ -55,7 +55,7 @@ myVar.addEventListener("mouseout", function(){
     myVar.classList.remove("heading-style");
     });*/
 
-//Event Listeners with multiple elements
+//Event Listeners with multiple elements----------------------------------------------------------------------
 /*document.querySelectorAll(".myButton")[0].addEventListener("click", function (){
  var text = this.innerHTML;
     document.querySelector("h1").innerHTML = text +" is clicked"
@@ -82,8 +82,8 @@ myVar.addEventListener("mouseout", function(){
     });
 }*/
 
-// how to play audio in javascript
-for (var i = 0; i < 3; i++) {
+//  in javascript-------------------------------------------------------
+/*for (var i = 0; i < 3; i++) {
   document
     .querySelectorAll(".myButton")
     [i].addEventListener("click", function () {
@@ -92,8 +92,9 @@ for (var i = 0; i < 3; i++) {
       audioPlay(text);
       playAnimation(text)
     });
-}
-function audioPlay(text) {
+}*/
+// how to play audio in javascript-------------------------------------------------------
+/*function audioPlay(text) {
   switch (text) {
     case "A":
       var audio = new Audio("sounds/1st.mp3");
@@ -108,14 +109,51 @@ function audioPlay(text) {
       audio.play();
       break;
   }
-}
+}*/
 
-//animation add
-function playAnimation(text){
+//animation add------------------------------------------------------------------------
+/*function playAnimation(text){
  var selectedButton =  document.querySelector("." + text);
  selectedButton.classList.add("anim");
 
  setTimeout(function(){
     selectedButton.classList.remove("anim");
  },1000);
-}
+}*/
+
+//Keypress listener----------------------------------------------------------
+/*document.addEventListener("keypress", function(event){
+var text = event.key;
+audioPlay(text);
+playAnimation(text)
+});
+*/
+
+///
+/*var count = 0;
+document.querySelector("textarea").addEventListener("keypress",function(event){
+count++;
+  //document.addEventListener("keypress",function(event){
+var text = event.key;
+document.querySelector("p").innerHTML = "You have pressed " + count;
+//document.querySelector("p").innerHTML = "You have pressed " + text;
+});*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
