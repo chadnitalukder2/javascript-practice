@@ -90,6 +90,7 @@ for (var i = 0; i < 3; i++) {
       var text = this.innerHTML;
       console.log(text);
       audioPlay(text);
+      playAnimation(text)
     });
 }
 function audioPlay(text) {
@@ -107,4 +108,14 @@ function audioPlay(text) {
       audio.play();
       break;
   }
+}
+
+//animation add
+function playAnimation(text){
+ var selectedButton =  document.querySelector("." + text);
+ selectedButton.classList.add("anim");
+
+ setTimeout(function(){
+    selectedButton.classList.remove("anim");
+ },1000);
 }

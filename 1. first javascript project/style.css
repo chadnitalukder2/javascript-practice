@@ -14,11 +14,20 @@
     color : blue;
     font-size: 3rem;
 }
-.myButton{
+/* .myButton{
     width: 100px;
     height: 50px;
     color:white;
     background-color:blue;
+} */
+.button{
+    width:100px;
+    height:50px;
+    margin: 20px;
+}
+.anim{
+    box-shadow: 0 15px 18px tomato;
+    opacity: 0.5;
 }
 
 
