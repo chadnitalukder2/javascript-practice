@@ -47,89 +47,37 @@ function myFunction(){
     alert("hello")
 });*/
 
-var myVar = document.querySelector("h1");
+/*var myVar = document.querySelector("h1");
 myVar.addEventListener("mouseover", function(){
 myVar.classList.add("heading-style");
 });
 myVar.addEventListener("mouseout", function(){
     myVar.classList.remove("heading-style");
+    });*/
+
+//Event Listeners with multiple elements
+/*document.querySelectorAll(".myButton")[0].addEventListener("click", function (){
+ var text = this.innerHTML;
+    document.querySelector("h1").innerHTML = text +" is clicked"
+
+ });
+ document.querySelectorAll(".myButton")[1].addEventListener("click", function (){
+    var text = this.innerHTML;
+       document.querySelector("h1").innerHTML = text +" is clicked"
+   
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    document.querySelectorAll(".myButton")[2].addEventListener("click", function (){
+        var text = this.innerHTML;
+           document.querySelector("h1").innerHTML = text +" is clicked"
+       
+        });*/
+
+//var len = document.querySelectorAll(".myButton").length;
+/*for (var i = 0; i < 3; i++) {
+  document
+    .querySelectorAll(".myButton")
+    [i].addEventListener("click", function () {
+      var text = this.innerHTML;
+      document.querySelector("h1").innerHTML = text + " is clicked";
+    });
+}*/
