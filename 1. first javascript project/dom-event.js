@@ -126,7 +126,7 @@ details.addEventListener("toggle", function(e){
 // 7. onmousemove
 // 8. onmouseover
 
-console.clear();
+//console.clear();
 /*const div = document.querySelector("div");
 
 div.addEventListener("click", function(e) {
@@ -167,16 +167,40 @@ div.addEventListener("mousemove", function () {
     console.log("offsetX = " + e.offsetX + " offsetY =" + e.offsetY);
 });*/
 
-
-const buttons = document.querySelectorAll(".btn");
+/*const buttons = document.querySelectorAll(".btn");
 //console.log(buttons);
 
 Array.from(buttons).map((button) => {
 button.addEventListener("click", function(){
     console.log("click")
 });
+});*/
+
+
+
+// KeyboardEvent------------------------------------------------------
+const textarea = document.querySelector("textarea");
+textarea.addEventListener("keydown", function(e){
+//console.log("keydown");
+if(e.repeat){
+    alert("do not repeat");
+}
+
 });
 
+textarea.addEventListener("keypress", function(){
+console.log("keypress")
+});
+
+textarea.addEventListener("keyup", function(e){
+//console.log(e.keyCode)
+//console.log(e.key)
+//console.log(e.code)
+// console.log(e.shiftKey)
+if(e.shiftKey){
+    console.log("shift " + e.key)
+}
+});
 
 
 
