@@ -65,7 +65,7 @@ function formHandler(e){
 //audio / video events
 //canplay, play, playing, pause, progress, ended, volumechange, waiting
 
-const video = document.querySelector("video");
+/*const video = document.querySelector("video");
 video.addEventListener("canplay", function () {
   console.log("canplay");
 });
@@ -83,4 +83,40 @@ video.addEventListener("end", function () {
   });
   video.addEventListener("volumechange", function () {
     console.log("volumechange");
-  });
+  });*/
+
+//50 : DOM Event | Event Object | scroll, resize, toggle
+//load, unload, scroll, resize, toggle
+
+//load,unload
+/*window.addEventListener("load", function(){
+    console.log("load")
+});
+window.addEventListener("unload", function(){
+    console.log("unload")
+});*/
+
+//srcoll
+/*window.addEventListener("scroll", function(){
+    console.log("scroll")
+});*/
+
+//resize
+/*window.addEventListener("resize", function(){
+   const width = window.outerWidth;
+   const height = window.outerHeight;
+    console.log(`height: ${height}, width: ${width} `)
+});*/
+
+//toggole - details
+
+const details = document.querySelector("details");
+details.addEventListener("toggle", function(e){
+    console.log(e.target.open);
+    console.log("toggle")
+});
+
+
+
+
+
