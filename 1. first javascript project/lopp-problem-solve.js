@@ -95,4 +95,18 @@ for (var i = 0; i < array.length; i++) {
 console.log(sum);
 */
 
-let array = [1,2,3,4,5 ,{"1","2","3","4","5",},]
+/*var array = [1, 2, 3, 4, 5, 6, 6, 7, 8, 8, 5, 4, 3, 9, 9];
+
+function singleArray(inputArray) {
+  var newArray = [];
+  for (var i = 0; i < inputArray.length; i++) {
+    if (newArray.includes(inputArray[i])==false) {
+      newArray.push(inputArray[i]);
+    }
+  }
+  return newArray;
+}
+
+var result = singleArray(array);
+console.log(result);*/
+

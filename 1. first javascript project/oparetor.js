@@ -9,6 +9,8 @@
 x += 6 ; // x = x + 6  ,  x = 3 + 6 , x = 9
 console.log(x)*/
 
+
+
 /*var num1 = 20;
 var num2 = 10;
 var sum,sub;

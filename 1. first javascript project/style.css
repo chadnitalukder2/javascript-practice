@@ -30,7 +30,12 @@
     opacity: 0.5;
 }
 
-
+div{
+    margin-bottom: 1rem;
+}
+input{
+    margin-bottom: 1rem;
+}
 
 
 
