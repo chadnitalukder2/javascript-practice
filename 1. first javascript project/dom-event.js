@@ -233,7 +233,7 @@ input.addEventListener("focus", function(){
 //DOM Event | ClipboardEvent--------------------------------
 //oncopy, oncute , onpaste
 
-const input = document.querySelector("input");
+/*const input = document.querySelector("input");
 const p = document.querySelector("p");
 
 input.addEventListener("copy", function () {
@@ -245,4 +245,23 @@ input.addEventListener("cut", function () {
 });
 input.addEventListener("paste", function () {
   console.log("paste");
+});*/
+
+//DrageEvent--------------------------------------------
+//omdragstart, ondrag, ondragenter, ondrageleave, ondrageover, ondrop
+
+const div = document.querySelector("div");
+const p = document.querySelector("p");
+p.addEventListener("dragstart", function (e) {
+  e.dataTransfer.setData("text",e.target.id);
 });
+div.addEventListener("dragover", function (e) {
+  e.preventDefault();
+});
+div.addEventListener("drop", function (e) {
+  let id =  e.dataTransfer.getData("text");
+  console.log(id);
+  div.appendChild(document.getElementById(id));
+  e.preventDefault();
+});
+
