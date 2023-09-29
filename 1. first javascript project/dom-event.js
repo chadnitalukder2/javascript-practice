@@ -179,7 +179,7 @@ button.addEventListener("click", function(){
 
 
 // KeyboardEvent------------------------------------------------------
-const textarea = document.querySelector("textarea");
+/*const textarea = document.querySelector("textarea");
 textarea.addEventListener("keydown", function(e){
 //console.log("keydown");
 if(e.repeat){
@@ -200,9 +200,38 @@ textarea.addEventListener("keyup", function(e){
 if(e.shiftKey){
     console.log("shift " + e.key)
 }
+});*/
+
+//FocuseEvent Object-----------------------------------------------------
+
+//<br>, <head>, <title>, <html>, <iframe>, <meta>, <param>, <script>, <style>, <base>, <bdo> (kaj kore na)
+
+// 1. onblur
+// 2. onfocus
+// 3. onfocusin
+// 4. onfocusout
+
+const input = document.querySelector("input");
+
+input.addEventListener("blur", function(e){
+    //console.log("blur is occured");
+   // input.style.background = "transparent";
+   // input.style.padding = "0rem";
+   //console.log(e.target.value);
+   input.value = e.target.value.toUpperCase();
 });
-
-
+input.addEventListener("focus", function(){
+   // console.log("focus is occured");
+   //input.style.background = "orange";
+   //input.style.padding = "2rem";
+});
+// input.addEventListener("focusin", function(){
+//     console.log("focusin is occured");
+// });
+// input.addEventListener("focusout", function(){
+//     console.log("focusout is occured");
+// });
+ 
 
 
 
