@@ -176,8 +176,6 @@ button.addEventListener("click", function(){
 });
 });*/
 
-
-
 // KeyboardEvent------------------------------------------------------
 /*const textarea = document.querySelector("textarea");
 textarea.addEventListener("keydown", function(e){
@@ -211,7 +209,7 @@ if(e.shiftKey){
 // 3. onfocusin
 // 4. onfocusout
 
-const input = document.querySelector("input");
+/*const input = document.querySelector("input");
 
 input.addEventListener("blur", function(e){
     //console.log("blur is occured");
@@ -230,8 +228,21 @@ input.addEventListener("focus", function(){
 // });
 // input.addEventListener("focusout", function(){
 //     console.log("focusout is occured");
-// });
- 
+// });*/
 
+//DOM Event | ClipboardEvent--------------------------------
+//oncopy, oncute , onpaste
 
+const input = document.querySelector("input");
+const p = document.querySelector("p");
 
+input.addEventListener("copy", function () {
+ p.innerText = "You have copied";
+  //console.log("copy");
+});
+input.addEventListener("cut", function () {
+  console.log("cut");
+});
+input.addEventListener("paste", function () {
+  console.log("paste");
+});
