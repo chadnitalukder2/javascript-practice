@@ -40,6 +40,12 @@ input{
     height: 150vh;
 } */
 
+.div1{
+    background : tomato;
+    height: 20rem;
+    padding:2rem;
+    width:20rem;
+}
 
 
 
