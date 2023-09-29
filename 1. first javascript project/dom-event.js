@@ -250,7 +250,7 @@ input.addEventListener("paste", function () {
 //DrageEvent--------------------------------------------
 //omdragstart, ondrag, ondragenter, ondrageleave, ondrageover, ondrop
 
-const div = document.querySelector("div");
+/*const div = document.querySelector("div");
 const p = document.querySelector("p");
 p.addEventListener("dragstart", function (e) {
   e.dataTransfer.setData("text",e.target.id);
@@ -263,5 +263,5 @@ div.addEventListener("drop", function (e) {
   console.log(id);
   div.appendChild(document.getElementById(id));
   e.preventDefault();
-});
+});*/
 
