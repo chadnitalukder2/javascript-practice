@@ -31,7 +31,7 @@ message("I love  ES6");*/
 }
 sum(10,20,40,50,60, 80)*/
 
-// spread operator------------------------------------
+// spread operator---------------------------------------------------------------------------
 
 /*function addNumber(x, y, z){
     return x + y + z;
@@ -49,8 +49,7 @@ let number2 = [4, 5, 6];
 let numbers = [...number1, ...number2];
 console.log(numbers);*/
 
-
-let p1 = {
+/*let p1 = {
     name : "Chadni talukder",
     age : 30
 }
@@ -60,12 +59,29 @@ let p2 = {
 }
 let p = {...p1, ...p2}
 
-console.log(p)
+console.log(p)*/
 
 
+// object literals---------------------------------------------------------------------------
+/*function studentInfo (name, age){
+    return{
+        // name : name,
+        // age : age
+        name,
+        age
+    }
+}
+console.log(studentInfo("puja das", 20));*/
 
-
-
+/*let message = {
+   // body : function(){
+  //  body(){ 
+    'body name'() { 
+        return `Hi, I am object function`
+    }
+}
+//console.log(message.body());
+console.log(message['body name']());*/
 
 
 
