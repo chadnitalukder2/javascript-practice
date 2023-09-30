@@ -97,7 +97,7 @@ setInterval(() => {
 };*/
 
 //Browser Object Model | Create a Clock------------------
-const saveButton = document.querySelector(".save-btn");
+/*const saveButton = document.querySelector(".save-btn");
 const message = document.querySelector(".message");
 
 saveButton.addEventListener("click", startClock);
@@ -120,7 +120,7 @@ if(value < 10){
     value = "0" + value;
 }
 return value;
-}
+}*/
 
 
 
