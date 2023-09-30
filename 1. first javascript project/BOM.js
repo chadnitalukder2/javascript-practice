@@ -27,7 +27,7 @@ visitButton.addEventListener("click", function(){
 location.assign("https://www.studywithanis.com")
 });*/
 
-//popup boxes - alert, confirm, prompt
+//popup boxes - alert, confirm, prompt-------------------------------------------------------
 //alert("error here")
 //confirm("Are you sure");
 
@@ -42,8 +42,7 @@ location.assign("https://www.studywithanis.com")
 }
 deleteSomething();*/
 
-
-function welcome(){
+/*function welcome(){
 var h1 = document.createElement("h1");
 let text;
 var name = prompt("Enter your name");
@@ -57,10 +56,42 @@ var textNode = document.createTextNode(text);
 h1.appendChild(textNode);
 document.body.appendChild(h1);
 };
-welcome();
+welcome();*/
 
 
+// Browser Object Model | Timing events-----------------------------------------
 
+/*setTimeout(() => {
+    console.log("hi");
+}, 3000);*/
 
+/*setTimeout(display,2000);
 
+function display(){
+    console.log("display function");
+}*/
 
+/*const saveButton = document.querySelector(".save-btn");
+const message = document.querySelector(".message");
+
+saveButton.addEventListener("click", saveUser);
+function saveUser(){
+    message.textContent = "user registration succesful"
+setTimeout(() => {
+    message.textContent="";
+}, 2000);
+}*/
+
+//setInterval----------------------------
+/*const saveButton = document.querySelector(".save-btn");
+const message = document.querySelector(".message");
+
+saveButton.addEventListener("click", displayCount);
+function displayCount(){
+    let count = 0 ;
+message.textContent = count ;
+setInterval(() => {
+    count++;
+    message.textContent = count;
+}, 1000);
+};*/
