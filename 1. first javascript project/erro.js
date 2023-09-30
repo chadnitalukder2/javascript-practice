@@ -14,7 +14,7 @@ finally{
 }*/
 
 
-document.querySelector("#checkbutton").addEventListener("click", function(){
+/*document.querySelector("#checkbutton").addEventListener("click", function(){
   var num = document.querySelector("#numtext").value;
  
   try{
@@ -30,3 +30,4 @@ document.querySelector("#checkbutton").addEventListener("click", function(){
 
   }
 });
+*/
