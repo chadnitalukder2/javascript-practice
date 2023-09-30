@@ -1,4 +1,4 @@
-var c = document.getElementById("mycanvas");
+/*var c = document.getElementById("mycanvas");
 var ctx = c.getContext("2d");
 
 ctx.lineWidth = 3 ;
@@ -17,4 +17,4 @@ ctx.arc(centerX,centerY,70,0,2*Math.PI,false);
 
 ctx.fillStyle = "red";
 ctx.fill();
-ctx.stroke();
+ctx.stroke();*/
