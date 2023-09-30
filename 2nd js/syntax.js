@@ -83,10 +83,23 @@ console.log(studentInfo("puja das", 20));*/
 //console.log(message.body());
 console.log(message['body name']());*/
 
+// for of and for in loop------------------------------------------------------------------------
+//for......of
+/*const names = ["s1", "s2", "s3"]
+for(let name of names){
+    console.log(name);
+}*/
 
-
-
-
+//for....in
+let student = {
+    ID : 101,
+    name : "Puja das",
+    cgpa : 3.91
+}
+for(let x in student){
+  //  console.log(student[x]);
+  console.log(`${x} : ${student[x]}`);
+}
 
 
 
