@@ -91,7 +91,7 @@ for(let name of names){
 }*/
 
 //for....in
-let student = {
+/*let student = {
     ID : 101,
     name : "Puja das",
     cgpa : 3.91
@@ -99,7 +99,7 @@ let student = {
 for(let x in student){
   //  console.log(student[x]);
   console.log(`${x} : ${student[x]}`);
-}
+}*/
 
 
 
