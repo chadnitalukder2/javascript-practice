@@ -58,19 +58,47 @@ const message2 = () =>   //akoti line takle secound bracket dewya lage na
 console.log(message1());
 console.log(message2());*/
 
-function add1(num1, num2){
+/*function add1(num1, num2){
     return num1 + num2;
 }
 const add2 = (num1,num2) => 
     num1 + num2
 
 console.log(add1(10,20));
-console.log(add2(20,20));
+console.log(add2(20,20));*/
 
+//Arrow function (part-2) | arrow with map,filter------------------------------------------------------------------------
+var student = [
+    {
+        id : 101,
+        name : "puja das",
+        gpa: 4.33,
+    },
+    {
+        id : 102,
+        name : "nitesh das",
+        gpa: 4.65,
+    },
+    {
+        id : 103,
+        name : "chadni talukder",
+        gpa: 2.99,
+    },
+]
 
+function studentName1 () {
+   return student.filter(function(x){
+       return  x.gpa > 3;
+    }).map(function(y){
+        return y.name;
+    });
+}
 
+const studentName2 = () => 
+    student.filter((x) => x.gpa >3).map((y) => y.name);
 
-
+console.log(studentName1());
+console.log(studentName2());
 
 
 
