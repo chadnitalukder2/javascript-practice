@@ -29,7 +29,7 @@ console.log(languages.native);
 // console.logs(studentInfo.gpa);*/
 
 //Destructuring function parameters
-const studentInfo = ({id, fullName}) => { 
+/*const studentInfo = ({id, fullName}) => { 
 console.log(`${id}, ${fullName}`);
 }
 const student = {
@@ -37,15 +37,43 @@ const student = {
     fullName : "nitesh das",
 
 }
-studentInfo(student);
+studentInfo(student);*/
 
 
+// array methods | find() | findIndex()------------------------------------------------------------------------
 
+//find(callback , value) return the value of the first element that pass certain condition
+/*let number = [5,55,34,14,4,78];
+const evenNumber = (value,index,array) => {
+    if(value%2===0)
+    return value;
+}
+// let firstEvenNumber = number.find(evenNumber );
+// console.log(firstEvenNumber);
+let firstEvenNumberIndex = number.findIndex(evenNumber );
+console.log(firstEvenNumberIndex);*/
 
+//object methods
+const student = [
+    {
+        id : 101,
+        gpa : 2.67,
+    },
+    {
+        id : 102,
+        gpa : 3.55,
+    },
+    {
+        id : 103,
+        gpa : 4.93,
+    },
+    {
+        id : 104,
+        gpa : 5,
+    }
+]
 
-
-
-
+console.log(student.find(x => x.gpa>4));
 
 
 
