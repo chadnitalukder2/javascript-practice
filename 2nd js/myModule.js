@@ -27,7 +27,7 @@ console.log(s1.name)
 console.log(s1.studentInfo);*/
 
 // Synchronous vs Asynchronous----------------------------------------------------------
-const taskOne = () => {
+/*const taskOne = () => {
     console.log("task1");
 };
 const dataloading = () => { //Asynchronous
@@ -49,12 +49,49 @@ taskOne();
 task2();
 task3();
 task4();
-task5();
+task5();*/
 
+// callback and higher order function-----------------------------------------------------------
+/*function square(x){
+    console.log(`square of ${x}: ${x*x}`);
+}
+square(5);
+// const y = square
+// y(7)
 
+function higherOrder (num, callback) {
+    callback(num)
 
+}
+higherOrder(6,square)*/
 
+/*const taskOne = (callback) => {
+    console.log("task1");
+    callback();
+};
 
+const task2 = (callback) => {
+   setTimeout(() => {
+console.log("task2. data loading");
+callback();
+   }, 3000);
+};
+const task3 = () => {
+    console.log("task3");
+};
+
+taskOne(() =>{
+    task2(() => {
+        task3();
+    });
+});*/
+
+/*console.log("hi");
+document.querySelector("button").addEventListener("click", ()=>{
+    console.log("button is clicked");
+});
+console.log("bye");
+*/
 
 
 
