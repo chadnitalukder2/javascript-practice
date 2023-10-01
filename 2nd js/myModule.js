@@ -99,16 +99,15 @@ console.log("wellcome");
 
 // rakte parle resolve or reject
 const promise1 = new Promise((resolve, reject) => {
-    let completedPromise = true;
-    if(completedPromise ){
+    // 
+    setTimeout(() => {
         resolve("completed promise 1")
-    }
-    else {
-        reject("not completed promise 1")
-    }
+    }, 2000);
 });
 const promise2 = new Promise((resolve,reject) => {
-resolve("completed promise 2")
+setTimeout(() => {
+    resolve("completed promise 2")
+}, 1000);
 });
 // promise1.then((res) => {
 //     console.log(res);
@@ -119,8 +118,9 @@ resolve("completed promise 2")
 // //console.log(promise1);
 
 // promise2.then((res) => console.log(res));
-Promise.all([promise1,promise2])
-.then((res) => console.log(res));
+Promise.race([promise1,promise2]).then((res) => console.log(res));
+//Promise.all([promise1,promise2])
+// .then(([res1, res2]) => console.log(res1 , res2));
 console.log("end");
 
 
