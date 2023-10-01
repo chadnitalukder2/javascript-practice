@@ -22,16 +22,25 @@ numbers.forEach(function(x){
 });
 console.log(squareNumber);*/
 
-var numbers = [10, 20, 30, 40];
+/*var numbers = [10, 20, 30, 40];
 numbers.forEach(function(x,index,arr){
    arr[index] = x+5;
 });
-console.log(numbers);
+console.log(numbers);*/
 
 
+// map and filter array function---------------------------------------------------------------------
+/*var numbers = [2, 3, 4, 5];
+var squareNumber = numbers.map(function(x){
+    return x*x;
+});
+console.log(squareNumber);*/
 
-
-
+var numbers = [22, 31, 4, 5,26,78,65];
+var newNumber = numbers.filter(function(x){
+    return x > 10;
+});
+console.log(newNumber);
 
 
 
