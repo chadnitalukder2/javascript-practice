@@ -68,7 +68,7 @@ console.log(add1(10,20));
 console.log(add2(20,20));*/
 
 //Arrow function (part-2) | arrow with map,filter------------------------------------------------------------------------
-var student = [
+/*var student = [
     {
         id : 101,
         name : "puja das",
@@ -98,7 +98,7 @@ const studentName2 = () =>
     student.filter((x) => x.gpa >3).map((y) => y.name);
 
 console.log(studentName1());
-console.log(studentName2());
+console.log(studentName2());*/
 
 
 
