@@ -54,7 +54,7 @@ let firstEvenNumberIndex = number.findIndex(evenNumber );
 console.log(firstEvenNumberIndex);*/
 
 //object methods
-const student = [
+/*const student = [
     {
         id : 101,
         gpa : 2.67,
@@ -73,10 +73,18 @@ const student = [
     }
 ]
 
-console.log(student.find(x => x.gpa>4));
+console.log(student.find(x => x.gpa>4));*/
 
 
-
+//String methods | startsWith, endsWith, includes-----------------------------------------------------------------------------
+//string.startsWith()  position
+const message = "today is friday"
+console.log(message.startsWith("today",0));
+console.log(message.endsWith("friday"));
+console.log(message.includes("is"));
+//string.endsWith() length
+//string.includes() position
+//all these methods are case sensitive
 
 
 
