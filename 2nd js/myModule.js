@@ -93,7 +93,35 @@ document.querySelector("button").addEventListener("click", ()=>{
 console.log("bye");
 */
 
+// promise part-1-----------------------------------------------------------
+console.log("wellcome");
 
+
+// rakte parle resolve or reject
+const promise1 = new Promise((resolve, reject) => {
+    let completedPromise = true;
+    if(completedPromise ){
+        resolve("completed promise 1")
+    }
+    else {
+        reject("not completed promise 1")
+    }
+});
+const promise2 = new Promise((resolve,reject) => {
+resolve("completed promise 2")
+});
+// promise1.then((res) => {
+//     console.log(res);
+// })
+// .catch((err) => {
+//     console.log(err);
+// })
+// //console.log(promise1);
+
+// promise2.then((res) => console.log(res));
+Promise.all([promise1,promise2])
+.then((res) => console.log(res));
+console.log("end");
 
 
 
