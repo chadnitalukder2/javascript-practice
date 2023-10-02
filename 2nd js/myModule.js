@@ -160,7 +160,7 @@ console.log("Bye");*/
 
 
 // async await javascript--------------------------------------------------
-console.log("welcome");
+/*console.log("welcome");
 const taskOne = () => {
     return new Promise((resolve, reject) => {
         resolve("task 1 is completed")
@@ -199,7 +199,7 @@ console.log(e);
 }
 }
 callAllTasks();
-console.log("Bye");
+console.log("Bye");*/
 
 
 
