@@ -4,7 +4,7 @@ console.clear();
 //property - response, responseText, responseType, responesURL, statuseText
 //function - open(), send(), setRequestHeader()
 
-const makeRequest = ( method, url,data) =>{
+/*const makeRequest = ( method, url,data) =>{
     const xhr = new XMLHTTpRequest();
     xhr.open( method, url);
     xhr.onload = () => {
@@ -28,4 +28,4 @@ const sendData = () => {
     });
 }
 
-sendDta();
+sendDta();*/
