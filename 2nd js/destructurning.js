@@ -87,13 +87,13 @@ console.log(message.startsWith("today",0));
 console.log(message.endsWith("friday"));
 console.log(message.includes("is"));*/
 
-
 // ES6 modules and class---------------------------------------------------------------------------
 /*import {text,setText} from './myModule.js'
 console.log(text);
 setText("good bye from es6");
 console.log(text);*/
 
+console
 
 
 
