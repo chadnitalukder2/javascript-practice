@@ -11,3 +11,6 @@ var result = number>0 ? "positive" : number<0 ? "negative":"zero"
 
 console.log(result);*/
 
+/// 
+let age = 19;
+console.log(age >= 18 ? age < 30 ? "you are an adult!" : "you are old !" : "you are young!");

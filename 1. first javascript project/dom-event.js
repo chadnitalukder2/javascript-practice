@@ -1,4 +1,4 @@
-console.clear();
+//console.clear();
 
 //input type text
 /*//const input = document.querySelector('input');

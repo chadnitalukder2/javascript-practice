@@ -1,4 +1,4 @@
-console.clear();
+//console.clear();
 //calling api from javascript | XMLHttpRequest----------------------------------------
 //event - onloade(), onerror,
 //property - response, responseText, responseType, responesURL, statuseText

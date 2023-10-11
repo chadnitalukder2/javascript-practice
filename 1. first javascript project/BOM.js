@@ -1,4 +1,4 @@
-console.clear();
+//console.clear();
 //console.log(window);
 //console.log(location);
 
